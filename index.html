@@ -3,12 +3,48 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Vatnummer.se</title>
+	<title>Vad är mitt VAT-nummer (momsregistreringsnummer)?</title>
 	<link rel="stylesheet" href="css/main.css" type="text/css" />
-	<script src="js/main.js" type="text/javascript"></script>
 </head>
 <body>
-	Hello
+
+	<section class="whats-my-vat-number">
+		<h1>Vad är mitt VAT-nummer (momsregistreringsnummer)?</h1>
+		<p>Fyll i ditt organisationsnummer (eller personnummer om du har enskild firma).</p>
+
+		<input type="text" id="orgNumber" placeholder="XXXXXX-XXXX" maxlength="11" />
+
+		<div class="insert-vat-number vat-number"></div>
+	</section>
+
+	<section class="information">
+		<h2>Kontrollera köpares VAT-nummer (momsregistreringsnummer)</h2>
+
+		<p>Om du ska sälja vara eller tjänst exkluderat moms till annat EU-land ska du kontrollera VAT-numret (momsregistreringsnumret) som köparen uppgivit.</p>
+
+		<a href="http://ec.europa.eu/taxation_customs/vies/vieshome.do" target="_blank">Europakommissionens tjänst "Kontroll av momsregistreringsnummer"</a>
+
+		<h2>Vad är VAT-nummer (momsregistreringsnummer)?</h2>
+		<p>VAT står för Value Added Tax (moms). En korrekt svensk översättning är momsregistreringsnummer men det är vanligare med begreppet VAT-nummer, till och med Skatteverket benämner det så på sin hemsida. VAT-numret är en standard som tillämpas inom EU.</p>
+
+		<p>När du köper en vara eller tjänst utanför Sverige men inom EU måste du alltid uppge ditt VAT-nummer för att du ska kunna betala utan moms. Observera att det då råder omvänd skattskyldighet, det vill säga att det är ditt ansvar att redovisa och betala momsen i Sverige.</p>
+
+		<p>När du säljer eller köper en tjänst utanför Sverige men inom EU måste du begära VAT-nummer av köparen för att få fakturera utan moms. Du är fortfarande skyldig att redovisa försäljningen i din momsdeklaration.</p>
+
+		<h2>Hur är ett VAT-nummer (momsregistreringsnummer) uppbyggt?</h2>
+
+		<p>Ett svenskt VAT-nummer består av landskoden SE följt av organisationsnumret eller personumret om det är en enskild firma utan bindestreck och avslutas med O1. Alltså "SE + XXXXXXXXXX + 01" till exempel SE543210123401. </p>
+
+		<p>Alla EU-länder har samma format på sitt VAT-nummer. 14 tecken med inledande landskod på två bokstäver med efterföljande tolv tecken som kan vara både siffror och bokstäver.</p>
+	</section>
+
+	<div class="footer">
+		<a href="http://inity.se" target="_blank">
+			<img class="inity" src="http://inity.se/images/logotype.svg" />		
+		</a>
+	</div>
+
+	<script src="lib/main.js" type="text/javascript"></script>
 
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
