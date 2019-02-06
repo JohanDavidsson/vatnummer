@@ -11,9 +11,16 @@
 
 	<section class="whats-my-vat-number">
 		<h1>Vad är mitt VAT-nummer (momsregistreringsnummer)?</h1>
-		<p>Fyll i ditt organisationsnummer (eller personnummer om du har enskild firma).</p>
+		<p>Fyll i ditt organisationsnummer (eller personnummer om du har enskild firma). </p>
 
 		<input type="text" id="orgNumber" placeholder="XXXXXX-XXXX" maxlength="11" />
+		
+		<div class="save-org-number-wrapper">
+			<input type="checkbox" id="saveOrgNumber" /> 
+			<label for="saveOrgNumber">
+				Kom ihåg mitt organisationsnummer (sparas endast lokalt på din dator/mobil)
+			</label>
+		</div>
 
 		<div class="insert-vat-number vat-number"></div>
 	</section>
