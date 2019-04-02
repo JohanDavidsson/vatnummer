@@ -79,6 +79,11 @@ section.information {
 	text-align: center;
 }
 
-.inity {
+.footer .inity {
 	width: 50px;
+}
+
+.footer .brollopssida {
+	margin-top: 10px;
+	font-style: italic;
 }
