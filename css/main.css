@@ -85,5 +85,6 @@ section.information {
 
 .footer .brollopssida {
 	margin-top: 10px;
-	font-style: italic;
+	color: #666;
+	line-height: 1.8;
 }
